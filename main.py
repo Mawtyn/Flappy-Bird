@@ -203,7 +203,7 @@ def main():
             rem = []
             for pipe in pipes:
                 if pipe.collide(bird):
-                    score =0
+                    run = False
                 if pipe.x + pipe.PIPE_TOP.get_width() < 0:
                     rem.append(pipe)    
                 if not pipe.passed and pipe.x < bird.x:
