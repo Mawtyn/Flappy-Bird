@@ -141,7 +141,7 @@ class Pipe:
         return False
     
 class Base:
-    VEL = 5
+    VEL = 7
     WIDTH = BASE_IMG.get_width()
     IMG = BASE_IMG
     
@@ -196,7 +196,7 @@ def main():
                     bird.jump()
                     moving = True
                 
-                
+                 
         if moving:
             bird.move()
             add_pipe = False
